@@ -14,7 +14,7 @@ public class DoorScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
-		Debug.Log("DOOR COLLISION");
+		if(!Settings.key) return;
 		if(other.transform.tag != "Player" || Open) return; 
 
 		Open = true;

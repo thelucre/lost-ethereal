@@ -6,6 +6,7 @@ public class LogoScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Settings.Init();
 		Invoke("StartGame", 4f);
 	}
 	

@@ -20,7 +20,7 @@ public class Settings : MonoBehaviour {
 		Settings.energy = 0;
 		Settings.key = true;
 		Settings.ring = false;
-		Settings.gear = false;
+		Settings.gear = true;
 		Settings.wand = false;
 	}
 

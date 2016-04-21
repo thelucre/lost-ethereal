@@ -1,14 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlatformScript : MonoBehaviour {
+public class PlatformScript : ObjectBaseScript {
 
 	Transform player;
 
+	public float 
+	distx = 5, 
+	disty = 4,
+	range = 5;
+
 	float startx, starty,
 	alpha = 0,
-	speed = 0.8f,
-	range = 5;
+	speed = 30f;
 	SpriteRenderer sr;
 
 	// Use this for initialization
@@ -19,26 +23,29 @@ public class PlatformScript : MonoBehaviour {
 		sr = gameObject.GetComponent<SpriteRenderer>();
 
 		transform.Translate(0,range,0);
+
+		sr.color = new Color(255,255,255,0);
+		transform.Translate(0,-range,0);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Vector3 pos = transform.position;
-		Debug.Log(Mathf.Abs(startx - player.position.x));
-		Debug.Log(Mathf.Abs(starty - player.position.y));
+		
+		if(!ActiveInScene) return;
 
-		if(Mathf.Abs(startx - player.position.x) < 5 && 
-			Mathf.Abs(starty - player.position.y) < 4) {
+		Vector3 pos = transform.position;
+
+		if(Mathf.Abs(startx - player.position.x) < distx && 
+			Mathf.Abs(starty - player.position.y) < disty) {
 
 			// Moving Up
-			pos.y += speed;
-			alpha += speed/range;
-
+			pos.y += speed*Time.deltaTime;
+			alpha += speed/range*Time.deltaTime;
 		} 
 		else {
 			// moving down 
-			pos.y -= speed;
-			alpha -= speed/range;
+			pos.y -= speed*Time.deltaTime;
+			alpha -= speed/range*Time.deltaTime;
 		}
 
 		pos.y = Mathf.Clamp(pos.y, starty-range, starty);

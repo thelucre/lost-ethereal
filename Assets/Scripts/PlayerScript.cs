@@ -24,4 +24,8 @@ public class PlayerScript : MonoBehaviour {
 
 		anim.SetFloat("speed", vel.magnitude);
 	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		Debug.Log(other.gameObject.tag);
+	}
 }

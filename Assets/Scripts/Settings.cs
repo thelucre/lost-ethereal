@@ -7,6 +7,9 @@ public class Settings : MonoBehaviour {
 	debug, canMove,
 	key, ring, gear, wand;
 
+	public static int 
+	energy;
+
 	public static void Init() {
 		
 		// GAME SETTINGS 
@@ -14,6 +17,7 @@ public class Settings : MonoBehaviour {
 		Settings.canMove = true;
 
 		// ADVENTURE DATA 
+		Settings.energy = 0;
 		Settings.key = true;
 		Settings.ring = false;
 		Settings.gear = false;

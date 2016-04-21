@@ -1,30 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TeleportScript : ObjectBaseScript {
+public class TeleportScript : MonoBehaviour {
 
 	public Vector2 target;
 	GameObject Screenwipe;
+	Transform player;
 
 	void Start() {
-		Screenwipe = Resources.Load("Test") as GameObject;
+		Screenwipe = Resources.Load("Screenwipe") as GameObject;
 	}
+
 
 	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log(other.gameObject.tag);
-		if(!ActiveInScene) return;
+
 		if(other.gameObject.tag != "player") return;
 
 		Settings.canMove = false;
+
 		Instantiate(Screenwipe); 
+		player = other.transform;
+
+		Invoke("MovePlayer", 1f);
+		Invoke("TeleportOver", 1.6f);
 	}
 
-	void OnCollisionEnter2D(Collision2D other) {
-		Debug.Log(other.gameObject.tag);
-		if(!ActiveInScene) return;
-		if(other.gameObject.tag != "player") return;
+	void MovePlayer() {
+		if(player == null) return;
 
-		Settings.canMove = false;
-		Instantiate(Screenwipe); 
+		Vector3 pos = player.position;
+		pos.x = target.x;
+		pos.y = target.y;
+		player.position = pos;
 	}
+
+	void TeleportOver() {
+		Settings.canMove = true;
+	}
+
 }

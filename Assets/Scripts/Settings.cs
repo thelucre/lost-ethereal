@@ -19,4 +19,5 @@ public class Settings : MonoBehaviour {
 		Settings.gear = false;
 		Settings.wand = false;
 	}
+
 }

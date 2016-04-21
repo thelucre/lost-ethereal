@@ -9,23 +9,25 @@ public class PlayerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Settings.Init();
 		rigidbody = gameObject.GetComponent<Rigidbody2D>();
 		anim = gameObject.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		float movex = Input.GetAxisRaw("Horizontal");
-		float movey = Input.GetAxisRaw("Vertical");
+		Vector2 vel = Vector2.zero;
 
-		Vector2 vel = new Vector2(movex, movey);
-		vel *= Speed;
+		if(Settings.canMove) {
+			float movex = Input.GetAxisRaw("Horizontal");
+			float movey = Input.GetAxisRaw("Vertical");
+
+			vel = new Vector2(movex, movey);
+			vel *= Speed;
+		}
+
 		rigidbody.velocity = vel;
-
 		anim.SetFloat("speed", vel.magnitude);
 	}
 
-	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log(other.gameObject.tag);
-	}
 }

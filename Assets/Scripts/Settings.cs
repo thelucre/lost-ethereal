@@ -14,7 +14,7 @@ public class Settings : MonoBehaviour {
 		Settings.canMove = true;
 
 		// ADVENTURE DATA 
-		Settings.key = false;
+		Settings.key = true;
 		Settings.ring = false;
 		Settings.gear = false;
 		Settings.wand = false;

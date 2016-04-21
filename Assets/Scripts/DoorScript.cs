@@ -15,13 +15,15 @@ public class DoorScript : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other) {
 		if(!Settings.key) return;
-		if(other.transform.tag != "Player" || Open) return; 
+		if(other.transform.tag != "player" || Open) return; 
 
 		Open = true;
 		anim.SetTrigger("open");
+		Settings.canMove = false;
 	}
 
 	void RemoveCollider() {
 		collider.enabled = false;
+		Settings.canMove = true;
 	}
 }

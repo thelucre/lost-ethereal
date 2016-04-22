@@ -18,7 +18,7 @@ public class Settings : MonoBehaviour {
 
 		// ADVENTURE DATA 
 		Settings.energy = 0;
-		Settings.key = true;
+		Settings.key = false;
 		Settings.ring = false;
 		Settings.gear = true;
 		Settings.wand = false;

@@ -7,10 +7,8 @@ public class ActivateBase : ObjectBaseScript {
 	Active = false,
 	OneTime = true,
 	DeactivateOnExit = false,
-	Toggle = false
-	;
-
-	bool HasBeenActivated = false;
+	Toggle = false,
+	HasBeenActivated = false;
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if(!ActiveInScene) return;

@@ -1,9 +1,33 @@
 fileFormatVersion: 2
 guid: d3ca461165ba646af8f293e04f937f6a
-timeCreated: 1461120132
+timeCreated: 1461303951
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: cody_0
+    21300002: cody_1
+    21300004: cody_2
+    21300006: cody_3
+    21300008: cody_4
+    21300010: cody_5
+    21300012: cody_6
+    21300014: cody_7
+    21300016: cody_8
+    21300018: cody_9
+    21300020: cody_10
+    21300022: cody_11
+    21300024: cody_12
+    21300026: cody_13
+    21300028: cody_14
+    21300030: cody_15
+    21300032: cody_16
+    21300034: cody_17
+    21300036: cody_18
+    21300038: cody_19
+    21300040: cody_20
+    21300042: cody_21
+    21300044: cody_22
+    21300046: cody_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +62,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +73,479 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: cody_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -5, y: 20}
+        - {x: -8, y: 17}
+        - {x: -11, y: -3}
+        - {x: -14, y: -18}
+        - {x: -14, y: -23}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -25}
+        - {x: 19, y: 3}
+        - {x: 17, y: 18}
+    - name: cody_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 21}
+        - {x: -2, y: 21}
+        - {x: -10, y: 19}
+        - {x: -14, y: -11}
+        - {x: -14, y: -23}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -31}
+        - {x: 19, y: 7}
+        - {x: 18, y: 19}
+    - name: cody_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 21}
+        - {x: -2, y: 21}
+        - {x: -10, y: 19}
+        - {x: -14, y: -11}
+        - {x: -14, y: -25}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -21}
+        - {x: 19, y: 0}
+        - {x: 14, y: 17}
+    - name: cody_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 21}
+        - {x: -2, y: 21}
+        - {x: -10, y: 19}
+        - {x: -14, y: -11}
+        - {x: -14, y: -25}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -21}
+        - {x: 19, y: 0}
+        - {x: 14, y: 17}
+    - name: cody_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -5, y: 20}
+        - {x: -8, y: 17}
+        - {x: -11, y: -3}
+        - {x: -14, y: -18}
+        - {x: -14, y: -23}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -25}
+        - {x: 19, y: 3}
+        - {x: 17, y: 18}
+    - name: cody_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -14, y: 20}
+        - {x: -14, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -14, y: 20}
+        - {x: -14, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -5, y: 20}
+        - {x: -8, y: 17}
+        - {x: -11, y: -3}
+        - {x: -14, y: -18}
+        - {x: -14, y: -23}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -25}
+        - {x: 19, y: 3}
+        - {x: 17, y: 18}
+    - name: cody_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 21}
+        - {x: -2, y: 21}
+        - {x: -10, y: 19}
+        - {x: -14, y: -11}
+        - {x: -14, y: -23}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -31}
+        - {x: 19, y: 7}
+        - {x: 18, y: 19}
+    - name: cody_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 21}
+        - {x: -2, y: 21}
+        - {x: -10, y: 19}
+        - {x: -14, y: -11}
+        - {x: -14, y: -25}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -21}
+        - {x: 19, y: 0}
+        - {x: 14, y: 17}
+    - name: cody_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 21}
+        - {x: -2, y: 21}
+        - {x: -10, y: 19}
+        - {x: -14, y: -11}
+        - {x: -14, y: -25}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -21}
+        - {x: 19, y: 0}
+        - {x: 14, y: 17}
+    - name: cody_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -5, y: 20}
+        - {x: -8, y: 17}
+        - {x: -11, y: -3}
+        - {x: -14, y: -18}
+        - {x: -14, y: -23}
+        - {x: -10, y: -32}
+        - {x: 18, y: -32}
+        - {x: 19, y: -25}
+        - {x: 19, y: 3}
+        - {x: 17, y: 18}
+    - name: cody_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -14, y: 20}
+        - {x: -14, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 20}
+        - {x: -14, y: 20}
+        - {x: -14, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
+    - name: cody_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -7, y: 20}
+        - {x: -14, y: -2}
+        - {x: -14, y: -28}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 19, y: 12}
+        - {x: 16, y: 18}
     outline: []
   spritePackingTag: 
   userData: 

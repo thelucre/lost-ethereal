@@ -28,6 +28,20 @@ public class PlayerScript : MonoBehaviour {
 
 		rigidbody.velocity = vel;
 		anim.SetFloat("speed", vel.magnitude);
+
+		if(Settings.debug) DebugCommands();
+	}
+
+	void DebugCommands() {
+		// Toggle Key Items 
+		if(Input.GetKeyDown(KeyCode.W)) Settings.wand = !Settings.wand;
+		if(Input.GetKeyDown(KeyCode.K)) Settings.key = !Settings.key;
+		if(Input.GetKeyDown(KeyCode.G)) Settings.gear = !Settings.gear;
+		if(Input.GetKeyDown(KeyCode.R)) Settings.ring = !Settings.ring;
+
+		// Increment Energy
+		if(Input.GetKeyDown(KeyCode.E)) Settings.energy++;
+
 	}
 
 }

@@ -4,12 +4,14 @@ using System.Collections;
 public class AbigailScript : MonoBehaviour {
 
 	public Animator Arm;
+	GameObject screenflash;
 
 	Animator anim;
 
 	// Use this for initialization
 	void Start () {
 		anim = gameObject.GetComponent<Animator>();
+		screenflash = Resources.Load("ScreenFlash") as GameObject;
 	}
 	
 
@@ -33,5 +35,12 @@ public class AbigailScript : MonoBehaviour {
 
 	public void Flash() {
 		Arm.SetTrigger("flash");
+		Invoke("Screenwipe", 1f);
+	}
+
+	public void Screenwipe() {
+		GameObject flash = Instantiate(screenflash);
+		ScreenFlashScript sfs = flash.GetComponent<ScreenFlashScript>();
+		sfs.DestroyTarget = gameObject; 
 	}
 }

@@ -1,9 +1,10 @@
 fileFormatVersion: 2
 guid: 91fc4d2bbc07d41d68bbdd53a800e1fc
-timeCreated: 1461120132
+timeCreated: 1461443792
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: interactables_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +39,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +50,26 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: interactables_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 11
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34}
+        - {x: -26, y: 34}
+        - {x: -30, y: 24}
+        - {x: -31, y: 13}
+        - {x: -31, y: -34}
+        - {x: 20, y: -34}
+        - {x: 20, y: -19}
+        - {x: 19, y: -15}
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,9 +1,50 @@
 fileFormatVersion: 2
 guid: bcb0596c8347f4de5aa598e94d68f0b5
-timeCreated: 1461120132
+timeCreated: 1461451282
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: abigail-arm_0
+    21300002: abigail-arm_1
+    21300004: abigail-arm_2
+    21300006: abigail-arm_3
+    21300008: abigail-arm_4
+    21300010: abigail-arm_5
+    21300012: abigail-arm_6
+    21300014: abigail-arm_7
+    21300016: abigail-arm_8
+    21300018: abigail-arm_9
+    21300020: abigail-arm_10
+    21300022: abigail-arm_11
+    21300024: abigail-arm_12
+    21300026: abigail-arm_13
+    21300028: abigail-arm_14
+    21300030: abigail-arm_15
+    21300032: abigail-arm_16
+    21300034: abigail-arm_17
+    21300036: abigail-arm_18
+    21300038: abigail-arm_19
+    21300040: abigail-arm_20
+    21300042: abigail-arm_21
+    21300044: abigail-arm_22
+    21300046: abigail-arm_23
+    21300048: abigail-arm_24
+    21300050: abigail-arm_25
+    21300052: abigail-arm_26
+    21300054: abigail-arm_27
+    21300056: abigail-arm_28
+    21300058: abigail-arm_29
+    21300060: abigail-arm_30
+    21300062: abigail-arm_31
+    21300064: abigail-arm_32
+    21300066: abigail-arm_33
+    21300068: abigail-arm_34
+    21300070: abigail-arm_35
+    21300072: abigail-arm_36
+    21300074: abigail-arm_37
+    21300076: abigail-arm_38
+    21300078: abigail-arm_39
+    21300080: abigail-arm_40
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +79,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +90,704 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: abigail-arm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -18}
+        - {x: -13, y: -25}
+        - {x: -2, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: -30}
+        - {x: 4, y: -18}
+    - name: abigail-arm_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -18}
+        - {x: -12, y: -25}
+        - {x: -1, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: -30}
+        - {x: 5, y: -18}
+    - name: abigail-arm_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -18}
+        - {x: -12, y: -25}
+        - {x: -1, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: -30}
+        - {x: 5, y: -18}
+    - name: abigail-arm_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -18}
+        - {x: -13, y: -25}
+        - {x: -2, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: -30}
+        - {x: 4, y: -18}
+    - name: abigail-arm_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -18}
+        - {x: -13, y: -25}
+        - {x: -2, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: -30}
+        - {x: 4, y: -18}
+    - name: abigail-arm_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -18}
+        - {x: -13, y: -25}
+        - {x: -2, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: -30}
+        - {x: 4, y: -18}
+    - name: abigail-arm_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -18}
+        - {x: -12, y: -25}
+        - {x: -1, y: -32}
+        - {x: 13, y: -32}
+        - {x: 13, y: -30}
+        - {x: 5, y: -18}
+    - name: abigail-arm_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
+    - name: abigail-arm_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -18}
+        - {x: -11, y: -25}
+        - {x: 0, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: -30}
+        - {x: 6, y: -18}
     outline: []
   spritePackingTag: 
   userData: 

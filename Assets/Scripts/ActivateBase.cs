@@ -11,7 +11,6 @@ public class ActivateBase : ObjectBaseScript {
 	HasBeenActivated = false;
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if(!ActiveInScene) return;
 		if(other.gameObject.tag != "player") return;
 
 		if(OneTime) {

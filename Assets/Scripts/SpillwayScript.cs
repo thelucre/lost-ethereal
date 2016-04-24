@@ -7,19 +7,26 @@ public class SpillwayScript : ActivateBase {
 	public bool Open = false;
 	public int Number = 0;
 
+	bool Triggered = false;
+	AbigailScript abigail;
+
 	SpriteRenderer sr;
 
 	// Use this for initialization
 	void Start () {
 		sr = gameObject.GetComponent<SpriteRenderer>();
+		abigail = FindObjectOfType<AbigailScript>();
+		Debug.Log(abigail);
 		Deactivate();
 	}
 
 	void Update() {
 		Check();
 
-		if(Number == 5 && sr.enabled) 
-			Debug.Log("FINISHED!");
+		if(Number == 5 && sr.enabled && !Triggered) { 
+			Triggered = true;
+			abigail.Finished();
+		}
 	}
 
 	public void Check() {

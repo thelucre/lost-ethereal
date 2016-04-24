@@ -41,8 +41,8 @@ public class SpillwayScript : ActivateBase {
 		if(ReliesOn.Length<=0) return true;
 
 		foreach(SpillwayScript spillway in ReliesOn) {
-			if(!spillway.Open || !spillway.Active) return false;
+			if(spillway.Open && spillway.Active) return true;
 		}
-		return true;
+		return false;
 	}
 }

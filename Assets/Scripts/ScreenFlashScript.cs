@@ -4,6 +4,7 @@ using System.Collections;
 public class ScreenFlashScript : MonoBehaviour {
 
 	public GameObject DestroyTarget, CreateTarget;
+	public Vector3 CreateTargetPos;
 
 	Animator anim;
 	AudioSource audio;
@@ -22,7 +23,7 @@ public class ScreenFlashScript : MonoBehaviour {
 
 	void Activate() {
 		if(DestroyTarget) Destroy(DestroyTarget);
-		if(CreateTarget) Destroy(CreateTarget);
+		if(CreateTarget) Instantiate(CreateTarget, CreateTargetPos, Quaternion.identity);
 	}
 
 	void AnimationComplete() {

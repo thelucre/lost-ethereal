@@ -1,9 +1,17 @@
 fileFormatVersion: 2
 guid: b48f0494f692348e5914dbe5705d6213
-timeCreated: 1461120132
+timeCreated: 1461812820
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ring_0
+    21300002: ring_1
+    21300004: ring_2
+    21300006: ring_3
+    21300008: ring_4
+    21300010: ring_5
+    21300012: ring_6
+    21300014: ring_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +46,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +57,167 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: ring_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
+    - name: ring_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
+    - name: ring_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
+    - name: ring_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
+    - name: ring_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
+    - name: ring_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
+    - name: ring_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
+    - name: ring_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -25}
+        - {x: -22, y: -28}
+        - {x: 6, y: -28}
+        - {x: 13, y: -27}
+        - {x: 27, y: -13}
+        - {x: 27, y: 24}
+        - {x: 14, y: 27}
     outline: []
   spritePackingTag: 
   userData: 

@@ -14,7 +14,7 @@ public class ItemDetailScript : MonoBehaviour {
 	void Start () {
 		anim = gameObject.GetComponent<Animator>();
 		audio = gameObject.GetComponent<AudioSource>();
-		anim.SetTrigger("key");
+		anim.SetTrigger(Type);
 
 		// Scren wipe is always centered on camera
 		Vector3 pos = Camera.main.transform.position;

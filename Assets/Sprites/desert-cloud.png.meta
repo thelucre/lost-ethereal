@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: ff314138bff254bfe83dcb527c2fc3fb
-timeCreated: 1462137064
+guid: 233b6b064ab3945be9c945379b79ecf7
+timeCreated: 1462137460
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: desert-switch_0
-    21300002: desert-switch_1
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -40,7 +38,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,29 +49,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: desert-switch_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: desert-switch_1
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 0
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 

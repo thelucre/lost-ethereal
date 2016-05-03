@@ -16,7 +16,6 @@ public class SpillwayScript : ActivateBase {
 	void Start () {
 		sr = gameObject.GetComponent<SpriteRenderer>();
 		abigail = FindObjectOfType<AbigailScript>();
-		Debug.Log(abigail);
 		Deactivate();
 	}
 

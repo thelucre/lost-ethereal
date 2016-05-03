@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class CodyScript : MonoBehaviour {
-
-	public Animator Arm;
+	
 	public Vector3 HumanSpawnPos;
 
 	GameObject screenflash, humanPrefab;
@@ -21,15 +20,13 @@ public class CodyScript : MonoBehaviour {
 	public void Begin() {
 		Settings.canMove = false;
 		Debug.Log("Cody Beginning");
-	}
 
-	public void Finished() {
-		Settings.canMove = false;
-		anim.SetTrigger("drink");
+		Invoke("Flash", 2f);
 	}
+		
 
 	public void Flash() {
-		Arm.SetTrigger("flash");
+		anim.SetTrigger("flash");
 		Invoke("Screenwipe", 1f);
 	}
 

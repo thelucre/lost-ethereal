@@ -10,16 +10,18 @@ public class LightSwitchScript : ActivateBase {
 	Sprite InactiveSprite;
 	SpriteRenderer sr;
 	AudioSource audio;
+	bool Triggered = false;
 
 	// Use this for initialization
 	void Start () {
 		audio = gameObject.GetComponent<AudioSource>();
 		sr = gameObject.GetComponent<SpriteRenderer>();
 		InactiveSprite = sr.sprite;
+		Light.SetSwitch(this);
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if(other.gameObject.tag != "player") return;
+		if(other.gameObject.tag != "player" || Triggered) return;
 
 		audio.Play();
 
@@ -32,12 +34,20 @@ public class LightSwitchScript : ActivateBase {
 		sr.sprite = ActiveSprite;
 		Light.Activate();
 
-		foreach(LightSwitchScript ls in others) ls.Deactivate();
+		foreach(LightSwitchScript ls in others) {
+			if(!ls.Triggered) ls.Deactivate();
+		}
 	}
 
 	public override void Deactivate() {
 		Active = false; 
 		sr.sprite = InactiveSprite;
 		Light.Deactivate();
+	}
+
+	public void Stop() {
+		audio.Play();
+		Deactivate();
+		Triggered = true; 
 	}
 }

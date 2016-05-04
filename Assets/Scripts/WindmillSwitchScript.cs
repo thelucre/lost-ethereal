@@ -15,9 +15,9 @@ public class WindmillSwitchScript : ActivateBase {
 		audio = gameObject.GetComponent<AudioSource>();
 	}
 
-	void OnCollisionEnter2D(Collision2D other) {
+	void OnTriggerEnter2D(Collider2D other) {
 		if(!Settings.gear) return;
-		if(other.transform.tag != "player") return; 
+		if(other.gameObject.tag != "player") return; 
 
 		Activate();
 	}

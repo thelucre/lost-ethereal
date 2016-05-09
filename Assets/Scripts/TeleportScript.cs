@@ -4,6 +4,8 @@ using System.Collections;
 public class TeleportScript : MonoBehaviour {
 
 	public Vector2 target;
+	public BGM Music = BGM.NULL;
+
 	GameObject Screenwipe;
 	Transform player;
 
@@ -27,6 +29,11 @@ public class TeleportScript : MonoBehaviour {
 
 	void MovePlayer() {
 		if(player == null) return;
+
+		if(Music != BGM.NULL) {
+			MusicManagerScript bgm = GameObject.FindObjectOfType<MusicManagerScript>();
+			bgm.Play(Music);
+		}
 
 		Vector3 pos = player.position;
 		pos.x = target.x;

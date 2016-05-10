@@ -31,5 +31,8 @@ public class SpiritGate : ActivateBase {
 		sr.enabled = false;
 		audio.clip = GateOpenSound;
 		audio.Play();
+
+		GameObject teleport = GameObject.FindGameObjectWithTag("finalteleport");
+		teleport.GetComponent<Collider2D>().enabled = true;
 	}
 }

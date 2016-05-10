@@ -5,6 +5,7 @@ public class TeleportScript : MonoBehaviour {
 
 	public Vector2 target;
 	public BGM Music = BGM.NULL;
+	public bool showScreenWipe = true;
 
 	GameObject Screenwipe;
 	Transform player;
@@ -18,10 +19,17 @@ public class TeleportScript : MonoBehaviour {
 
 		if(other.gameObject.tag != "player") return;
 
+		player = other.transform;
+
+		if(!showScreenWipe) {
+			MovePlayer();
+			return;
+		}
+
 		Settings.canMove = false;
 
 		Instantiate(Screenwipe); 
-		player = other.transform;
+
 
 		Invoke("MovePlayer", 1f);
 		Invoke("TeleportOver", 1.6f);

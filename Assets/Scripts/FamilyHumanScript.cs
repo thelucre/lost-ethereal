@@ -4,6 +4,7 @@ using System.Collections;
 public class FamilyHumanScript : MonoBehaviour {
 
 	public GameObject ItemPrefab;
+	public bool GiveItem = true;
 
 	bool Triggered = false;
 	bool Fading = false;
@@ -21,19 +22,20 @@ public class FamilyHumanScript : MonoBehaviour {
 			c.a -= 0.05f;
 			sr.color = c;
 			if(c.a <= 0f) {
-				Instantiate(ItemPrefab);
+				if(GiveItem) Instantiate(ItemPrefab);
 				Destroy(gameObject);
 			}
 		}
 	}
 
 	void WaveStarted() {
-		if(Triggered) return;
+		if(Triggered || !GiveItem) return;
 		Triggered = true;
 		Invoke("Fade", 2f);
 	}
 
 	void Fade() {
+		if(!GiveItem) return;
 		Fading = true;
 	}
 }

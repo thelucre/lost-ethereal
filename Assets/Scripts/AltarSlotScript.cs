@@ -5,7 +5,7 @@ public class AltarSlotScript : ActivateBase {
 
 	public Sprite ActiveSprite;
 
-	static int ActiveAltars = 0;
+	public static int ActiveAltars = 0;
 	SpriteRenderer sr;
 	AudioSource audio;
 

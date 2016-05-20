@@ -13,7 +13,7 @@ public class Settings : MonoBehaviour {
 	public static void Init() {
 		
 		// GAME SETTINGS 
-		Settings.debug = true;
+		Settings.debug = false;
 		Settings.canMove = true;
 
 		// ADVENTURE DATA 
@@ -22,6 +22,12 @@ public class Settings : MonoBehaviour {
 		Settings.ring = false;
 		Settings.gear = false;
 		Settings.wand = false;
+			
+		// Fixed bug where Cody boss wasn't reset 
+		LightScript.GloopKilled = 0;
+
+		// Reset naltar slots on new game
+		AltarSlotScript.ActiveAltars = 0;
 	}
 
 }
